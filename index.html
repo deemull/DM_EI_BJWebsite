@@ -14,8 +14,9 @@
     <form action="/fontsize">
     <div class="heart">
     <label id="display">❤️</label>
+    <br>
+    <button type="button" onclick="changeSize()">Change heart size</button>
     <br><br>
-    <button type="button" onclick="changeSize()">Change size</button>
     
     <label>Change Font Color To:</label>
     <button type="button" onclick="changeFontColor('palevioletred');">Light Red</button>
@@ -27,7 +28,7 @@
 
     <p id="text"></p>
       
-    h1>Background Color is being changed every 1 seconds</h1>
+    <p>Background Color is being changed every 1 seconds</p>
     <script>
     setInterval(
     function () {
